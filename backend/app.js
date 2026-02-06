@@ -11,7 +11,7 @@ const adminRouter = require('./routes/admin')
 const coachRouter = require('./routes/coaches')
 const coursesRouter = require('./routes/courses')
 const uploadRouter = require('./routes/upload')
- 
+
 const app = express()
 app.use(cors())
 app.use(express.json())
